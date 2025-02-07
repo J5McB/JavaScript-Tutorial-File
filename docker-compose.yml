@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  javascripttuturialfile:
+    image: javascripttuturialfile
+    build:
+      context: .
+      dockerfile: ./Dockerfile
